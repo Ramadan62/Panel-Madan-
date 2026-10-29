@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Madan Hosting Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand"><span class="mark">M</span><div><b>MADAN</b><small>HOSTING PANEL</small></div></div>
+  <nav><a class="active" href="#dashboard">▦ Dashboard</a><a href="#servers">▣ Servers</a><a href="#account">♙ Account</a></nav>
+  <div class="side-note">Starter UI · Demo mode</div>
+</aside>
+<main>
+<header><div><small>CONTROL CENTER</small><h1>Dashboard</h1></div><div class="user"><span class="avatar">M</span><span>Demo User</span></div></header>
+<section class="welcome"><div><p class="eyebrow">MADAN HOSTING</p><h2>Welcome back.</h2><p>Kelola server bot kamu dari satu tempat.</p></div><div class="orb">✦</div></section>
+<section class="stats">
+  <article><small>SERVER</small><strong>1</strong><span class="muted">Demo instance</span></article>
+  <article><small>STATUS</small><strong class="blue">Offline</strong><span class="muted">Belum terhubung ke VPS</span></article>
+<article><small>RUNTIME</small><strong>Node.js</strong><span class="muted">Template bot</span></article>
+</section>
+<section id="servers" class="panel">
+<div class="section-head"><div><small>YOUR INSTANCES</small><h2>Servers</h2></div><button id="create">＋ Create server</button></div>
+<div class="server-row"><div class="server-icon">⌘</div><div class="server-info"><b>Madan WhatsApp Bot</b><small>Node.js · Demo only</small></div><span class="pill">Offline</span><button class="ghost" id="consoleBtn">Console</button></div>
+<div class="notice" id="notice">Starter preview: tombol hanya menampilkan demo, belum mengontrol server sungguhan.</div>
+</section>
+<section class="panel" id="account"><div class="section-head"><div><small>ACCOUNT</small><h2>Quick links</h2></div></div><div class="quick"><a href="https://pterodactyl.io/" target="_blank" rel="noreferrer">Pterodactyl docs ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+<footer>Madan Hosting Panel · Starter UI · Not connected to a server</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
